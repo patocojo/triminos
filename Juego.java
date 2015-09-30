@@ -66,7 +66,7 @@ public class Juego
                 c=itr1.next();
                 cuadrante[j] = t.split(t,c,t.cuadranteCasilla(c)); // Para el paso (3.2)
             }
-            // RECURSIï¿½N SOBRE LOS SUBPROBLEMAS
+            // RECURSIîN SOBRE LOS SUBPROBLEMAS
             for (i=0;i<4;i++){
                  solucion[i] = resolver(cuadrante[i]);
             }
