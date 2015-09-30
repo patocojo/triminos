@@ -44,7 +44,7 @@ public class Juego
         Tablero solucion[] = new Tablero[4];  // Las soluciones parciales
         int i=0;
         int j=0;
-        // DIVIDE Y VENCERï¿½S
+        // DIVIDE Y VENCERçS
         if (t.getDimension() <= 2)
         {
             // CASO TRIVIAL  Paso (0)
@@ -58,7 +58,7 @@ public class Juego
             Trimino.Orientacion o = t.cuadranteCasillaMarcada(); // Paso  (1)
             Trimino m = t.triminoPivote(t); t.addTrimino(m);     // Paso  (2)
             
-            // DESCOMPOSICIï¿½N
+            // DESCOMPOSICIîN
             // Calculamos los cuatro cuadrantes. Dividimos el problema en subproblemas
             Iterator<Casilla> itr1 = m.getListaCasillas().iterator();  // Iteramos sobre las casillas del trimino pivote   
             cuadrante[0] = t.split(t,t.getCasillaMarcada(),o); // Para el paso (3.1)
