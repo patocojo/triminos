@@ -249,7 +249,7 @@ public class Tablero
                     y=c.get_y()  - this.si_Y;
                     tabla[x][y] = simbolos.charAt(i);
            }
-           i=(i+1) % simbolos.length();     // modulo
+           i=(i+1) % simbolos.length();     // aritmética MODULAR
         }
        
        // Escribinos la tabla
