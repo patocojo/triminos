@@ -1,4 +1,4 @@
-package es.uned.lsi.triminos;
+//package es.uned.lsi.triminos;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -10,7 +10,7 @@ import java.util.Iterator;
  */
 public class Tablero
 {
-    // Definici√≥n de la clase
+    // Definicion de la clase
     private int si_X, si_Y, id_X, id_Y; // Coordenadas superior izquierda (si) e inferior derecha  (id)
     private Casilla casillaMarcada;
     private  ArrayList<Trimino> listaTriminos; // Un tablero contiene triminos
@@ -223,7 +223,7 @@ public class Tablero
     public void renderiza()
     {
        char[][] tabla = new char[this.dimension][this.dimension];
-       String simbolos = "abcdefghijklmnñopqrstuvwxyz"; 
+       String simbolos = "1234567890abcdefghijklmnopqrstuvwxyz"; 
        //String simbolos = "1234567890"; 
        ArrayList<Casilla> listaCasillas = new ArrayList<Casilla>();
        Casilla c;
