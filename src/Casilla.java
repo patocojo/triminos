@@ -1,4 +1,4 @@
-package es.uned.lsi.triminos;
+//package es.uned.lsi.triminos;
 
 /**
  * Una casilla es un par de coordenadas

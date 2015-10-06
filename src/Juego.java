@@ -1,4 +1,4 @@
-package es.uned.lsi.triminos;
+//package es.uned.lsi.triminos;
 
 import java.util.ArrayList;
 import java.util.Iterator;
