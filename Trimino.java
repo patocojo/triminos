@@ -10,7 +10,7 @@ import java.util.Iterator;
  * Un tromino es una L de casillas de 1x1 en sus 4 orientaciones posibles
  * 
  * @author Miguel
- * @version (a version number or a date)
+ * @version v1.0
  */
 public class Trimino
 {

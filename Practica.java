@@ -19,7 +19,7 @@ public class Practica
      public static void main(String[] args) {
        
        if (args.length != 3){
-            System.out.println("SINTAXIS: práctica x y d");
+            System.out.println("SINTAXIS: practica x y d");
         }
        else
        {
@@ -34,7 +34,7 @@ public class Practica
            t.renderiza();
            Juego j = new Juego(t);
            s = j.resolver(t);
-           System.out.println("\n\nSOLUCIÓN:");
+           System.out.println("\n\nSOLUCION:");
            s.renderiza();  
        }
     }

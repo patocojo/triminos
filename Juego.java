@@ -27,7 +27,7 @@ public class Juego
      * El algoritmo es el siguiente:
      * 
      *   (0) Caso trivial: 2x2 y una casilla marcada. Los otros 3 forman un trimino y solucionado.
-     *   (1) Ver en qu� cuadrante est� la casilla marcada
+     *   (1) Ver en que cuadrante esta la casilla marcada
      *   (2) Poner en el centro del tablero un trimino, que llamaremos trimino pivote, orientado de manera que encaje con la esquina del cuadrante que contiene la casilla marcada
      *   (3) Realizar 4 llamadas recursivas al algoritmo con los argumentos siguientes:
      *      (3.1) Al cuadrante con la casilla marcada, llamar recursivamente con dicha casilla marcada
