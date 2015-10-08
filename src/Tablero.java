@@ -223,8 +223,8 @@ public class Tablero
     public void renderiza()
     {
        char[][] tabla = new char[this.dimension][this.dimension];
-       String simbolos = "1234567890abcdefghijklmnopqrstuvwxyz"; 
-       //String simbolos = "1234567890"; 
+       String simbolos = "abcdefghijklmnopqrstuvwxyz"; 
+       //String simbolos = "o+-&@"; 
        ArrayList<Casilla> listaCasillas = new ArrayList<Casilla>();
        Casilla c;
        int i=0;
@@ -249,10 +249,10 @@ public class Tablero
                     y=c.get_y()  - this.si_Y;
                     tabla[x][y] = simbolos.charAt(i);
            }
-           i=(i+1) % simbolos.length();     // aritmética MODULAR
+           i=(i+1) % simbolos.length();     // Incremento modular
         }
        
-       // Escribinos la tabla
+       // Escribimos la tabla
        for(y=0;y<dimension;y++){
             for(x=0;x<dimension;x++){
                 if(tabla[x][y]=='\u0000')
@@ -285,7 +285,7 @@ public class Tablero
         }
        System.out.println("FIN LISTA TRIMINOS");
        System.out.print("Casilla marcada:"); this.casillaMarcada.escribe();
-       System.out.println("Dimensi√≥n:"+this.dimension); 
+       System.out.println("Dimension:"+this.dimension); 
        System.out.println("FIN TABLERO\n");
     }
 }

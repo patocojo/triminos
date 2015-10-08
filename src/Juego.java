@@ -22,7 +22,7 @@ public class Juego
     }
 
     /**
-     * M�todo que realiza la resoluci�n por Divide y Vencer�s del juego. 
+     * M�todo que realiza la resolucion por Divide y Venceras del juego. 
      * 
      * El algoritmo es el siguiente:
      * 
