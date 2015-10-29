@@ -111,12 +111,12 @@ public class Tablero
     }
     
     /**
-     * A�ade un Trimino al tablero
+     * Anade un Trimino al tablero
      *
      */
     public void addTrimino(Trimino m)
     {
-        // A�ade un Trimino al tablero. 
+        // Anade un Trimino al tablero. 
         this.listaTriminos.add(m);
     }
 
@@ -223,8 +223,8 @@ public class Tablero
     public void renderiza()
     {
        char[][] tabla = new char[this.dimension][this.dimension];
-       String simbolos = "abcdefghijklmnopqrstuvwxyz"; 
-       //String simbolos = "o+-&@"; 
+       String simbolos = "1234567890"; 
+       //String simbolos = "o+"; 
        ArrayList<Casilla> listaCasillas = new ArrayList<Casilla>();
        Casilla c;
        int i=0;
@@ -236,8 +236,8 @@ public class Tablero
        x=this.casillaMarcada.get_x() - this.si_X; 
        y=this.casillaMarcada.get_y() - this.si_Y; 
        tabla[x][y] = '#';
-       // Iteramos sobre los triminos del tablero
-       Iterator<Trimino> itr_m = this.listaTriminos.iterator();
+       Iterator<Trimino> itr_m = listaTriminos.iterator();
+	// Iteramos sobre los triminos del tablero
        while (itr_m.hasNext()) {
            m = itr_m.next();
            listaCasillas = m.getListaCasillas();
